@@ -1,0 +1,18 @@
+# Specify JavaScript files as JavaScript
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+
+# Specify SQL files as SQL
+*.sql linguist-language=SQL
+
+# Specify HTML files as HTML
+*.html linguist-language=HTML
+
+# Specify CSS files as CSS, but consider them less significant
+*.css linguist-language=CSS
+*.css linguist-vendored=true
+
+# Exclude specific test or config files from language statistics (if desired)
+# Example:
+# *.test.js linguist-documentation=false
+# *.config.js linguist-documentation=false
